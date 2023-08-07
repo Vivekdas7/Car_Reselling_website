@@ -13,7 +13,7 @@ padding: 0;
     --big-font: 5rem;
     --h1-font: 3.75rem;
     --h2-font: 2.25rem;
-    --p-font: 0.9rem;
+    --p-font: 0.8rem;
 }
 
 
@@ -51,6 +51,12 @@ padding: 0;
 
     /* Footer Css */
 /* top container css */
+
+.footTop{
+    height: 40px;
+    margin: 30px 130px 0px -40px;
+}
+
 .footTopContainer{
     margin: 20px;
     
@@ -60,19 +66,35 @@ padding: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0px;
     
     
 }
 
-.FirstfootTopContainerRow{
+.FirstfootTopContainerRow {
     display: flex;
-    
+
+}
+
+.FirstfootTopContainerRow h1{
+    font-size: var(--h2-font);
 }
 
 
-.material-symbols-outlined{
-font-size: 40px;
+.footTopContainerRow p{
+    padding-left: 50px;
+    font-size: var(--p-font);
 }
+
+.FirstfootTopContainerRow i{
+    font-size: 50px;
+    padding-right:3px ;
+    padding-top: 5px;
+
+}
+
+
+
+
 
