@@ -15,6 +15,73 @@
     --h2-font: 2.25rem;
     --p-font: 0.8rem;
 }
+/* Header */
+nav{
+    display: flex;
+    padding: 11px;
+    width: 100%;
+    height:70px;
+    background-color: aqua;
+}
+.logo{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:300px;
+    height:42px;
+    background-size: cover;
+}
+.lang{
+    padding:10px;
+    width: 205px;
+    height:48px;
+    text-align: center;
+    text-decoration: underline;
+    border:none;
+}
+.like{
+    padding:10px;
+    width:90px;
+    height:48px;
+    display: flex;
+}
+.login{
+    padding-right: 10px;
+    display: flex;
+    justify-items: center;
+    padding:10px;
+    width: 150px;
+    height: 48px;
+    font-size: 1rem;
+}
+#pop {
+    font-size:1.75rem;
+}
+.search_bar{
+    height: 38px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+.ser input{
+    padding-left: 10px;
+    width:400px;
+    height: 38px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ser_icon{
+    width:40px;
+    height:38px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
 
 .heading {
