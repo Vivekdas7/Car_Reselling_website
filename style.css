@@ -2,3 +2,32 @@
 margin: 0;
 padding: 0;
 }
+.heading{
+text-align: center;
+}
+.heading span{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.heading h1{
+    font-size: 2rem;
+}
+.sell_container{
+    display: grid;
+    align-items: center;
+grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+gap: 1rem;
+margin-top: 2rem;
+}
+.sell_container .box{
+    text-align: center;
+    padding: 20px;
+    
+}
+.sell_container .box .bx{
+    font-size: 34px;
+    padding: 10px;
+    background: white;
+    border-radius: 0.5rem;
+   
+}
