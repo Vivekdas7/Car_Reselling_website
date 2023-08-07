@@ -48,3 +48,31 @@ padding: 0;
        
     }
 
+
+    /* Footer Css */
+/* top container css */
+.footTopContainer{
+    margin: 20px;
+    
+}
+.footTopContainerRow{
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    
+    
+}
+
+.FirstfootTopContainerRow{
+    display: flex;
+    
+}
+
+
+.material-symbols-outlined{
+font-size: 40px;
+}
+
