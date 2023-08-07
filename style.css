@@ -15,6 +15,8 @@
     --h2-font: 2.25rem;
     --p-font: 0.8rem;
 }
+
+
 /* Header */
 nav{
     display: flex;
@@ -84,6 +86,8 @@ nav{
 }
 
 
+/* body */
+
 .heading {
     text-align: center;
 }
@@ -125,46 +129,46 @@ nav{
 /* top container css */
 
 .footTop {
-    height: 40px;
-    margin: 30px 130px 0px -40px;
+    height  : 40px;
+    margin  : 30px 130px 0px -40px;
 }
 
 /* footContainer */
 
 .footTopContainer {
-    margin: 20px;
+    margin  : 20px;
 }
 
 /* footcontainer row */
 .footTopContainerRow {
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1px;
+    width           : 100%;
+    z-index         : 1000;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-evenly;
+    padding         : 1px;
 }
 
 /* firstSentencefootContainer */
 .FirstfootTopContainerRow {
-    display: flex;
+    display : flex;
 }
 
 /*  firstSentencefootContainer header*/
 .FirstfootTopContainerRow h1 {
-    font-size: var(--h2-font);
+    font-size       : var(--h2-font);
 }
 
 /* firstSentencefootContainer paragraph */
 .footTopContainerRow p {
-    padding-left: 50px;
-    font-size: var(--p-font);
+    padding-left : 50px;
+    font-size    : var(--p-font);
 }
 
 /* firstSentencefootContainer icon */
 .FirstfootTopContainerRow i {
-    font-size: 50px;
-    padding-right: 3px;
-    padding-top: 5px;
+    font-size       : 50px;
+    padding-right   : 3px;
+    padding-top     : 5px;
 
 }
