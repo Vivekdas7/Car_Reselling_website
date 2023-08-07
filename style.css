@@ -2,3 +2,14 @@
 margin: 0;
 padding: 0;
 }
+
+/* functions */
+:root{
+    --highlighted-color: #b04759 ;   
+    --text-color: #213555;
+    --bg-color: #f6f4eb ;
+    --big-font: 5rem;
+    --h1-font: 3.75rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+}
