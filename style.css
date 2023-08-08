@@ -242,6 +242,11 @@
     padding: 15px 0px 0px 0px;
 }
 
+/* hower */
+.footNavContainer .FooterNav ul li:hover {
+    font-size: 18px;
+}
+
 
 
 
@@ -255,15 +260,16 @@
 .footBottom .footleftfont{
     font-style: italic;
     font-size: 12px;
+    color: var(--text-color);
 }
 
 .footrightfont .socialMedia{
     display: flex;
 }
 
-.socialMedia p{
-    
+.socialMedia p{   
     font-weight: bold;
+    color: var(--text-color);
 }
 
 .logoOfSocialMedia{
