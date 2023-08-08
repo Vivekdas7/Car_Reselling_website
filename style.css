@@ -29,9 +29,12 @@
     display         : flex;
     padding-left    : 10px;
     padding-right   : 10px;
-    width           : 300px;
-    height          : 42px;
+    width           : 1000px;
+    height          : 100px;
     background-size : cover;
+    
+    
+
 }
 .lang{
     padding         : 10px;
