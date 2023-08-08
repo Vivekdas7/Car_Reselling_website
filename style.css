@@ -192,13 +192,49 @@
     justify-content: center;
 }
 
+
+
+
+/* subham */
+.card10 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card9 {
+    height: 200px;
+    width: 150px;
+    box-shadow: 10px 00px 10px 10px rgb(37, 37, 37);
+    /* border: 2px solid blue; */
+    margin: 15px;
+    padding: 10px;
+}
+
+#get {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 100px;
+    color: brown;
+}
+
+
+
+
+
 .card {
     border: 1px solid gray;
     margin: 15px;
     padding: 10px;
-    cursor: pointer;
-
 }
+
+
+
+
+
+
 .card:hover{
   /* bottom: 30px; */
   transform: translate3D(0,-1px,0) scale(1.08);
