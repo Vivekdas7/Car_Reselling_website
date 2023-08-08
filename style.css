@@ -35,10 +35,11 @@
 }
 .logo{
     display: flex;
-   width: 200px;
+   width: 400px;
    height: 100%;
    background-size: cover;
    justify-content: center;
+   font-size: 10.5rem;
 }
 .lang{
     padding         : 10px;
