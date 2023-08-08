@@ -245,6 +245,7 @@
 
 
 
+
 /* bootom footer */
 .footBottom{
     display: flex;
@@ -273,3 +274,17 @@
 .logoOfSocialMedia i{
     padding: 2px;
 }
+
+.cart-creating {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 10px;
+}
+
