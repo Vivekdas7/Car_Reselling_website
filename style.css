@@ -13,6 +13,7 @@
     --big-font          : 5rem;
     --h1-font           : 3.75rem;
     --h2-font           : 2.25rem;
+    --h6-font           : 1.00rem;
     --p-font            : 0.8rem;
 }
 
@@ -128,7 +129,7 @@
 
 .footTop {
     height  : 40px;
-    margin  : 30px 130px 0px -40px;
+    margin  : 30px 130px 40px -40px;
 }
 
 /* footContainer */
@@ -169,4 +170,37 @@
     padding-right   : 3px;
     padding-top     : 5px;
 
+}
+
+/* header of top of 2ndnav bar */
+
+.foottopheader{
+    margin: 90px 0px 70px 0px;
+}
+
+/* 2nd bottom nav bar */
+
+.footNav{
+    padding: 0px 0px 0px 0px;
+    margin: 70px 90px 10px 90px;
+}
+
+
+.footNavContainer{
+    width           : 100%;
+    z-index         : 1000;
+    display         : flex;
+    align-items     : normal;
+    justify-content : space-between;
+    padding         : 1px;
+}
+
+.footNavContainer .FooterNav h6{
+    font-size: var(--h6-font)
+}
+
+.footNavContainer .FooterNav ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: var(--p-font);
 }
