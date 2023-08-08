@@ -246,12 +246,42 @@
 .footNavContainer .FooterNav ul li:hover {
     font-size: 18px;
 }
+.toy h2{
+    margin: 20px;
+}
+.car h2{
+    margin: 20px;
+}
+
+.cart-creating {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.card:hover{
+  /* bottom: 30px; */
+  transform: translate3D(0,-1px,0) scale(1.08);
+  border-color: #213555;
+  border-width: 2px;
+  box-sizing: content-box;
+  box-shadow: #213555;
+}
 
 
 
 
 
-/* bootom footer */
+
+/*----------------------------------------- bootom footer======================================== */
 .footBottom{
     display: flex;
     justify-content: space-between;
@@ -281,33 +311,4 @@
     padding: 2px;
 }
 
-.cart-creating {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.card {
-    border: 1px solid gray;
-    margin: 15px;
-    padding: 10px;
-    cursor: pointer;
-
-}
-.card:hover{
-  /* bottom: 30px; */
-  transform: translate3D(0,-1px,0) scale(1.08);
-  border-color: #213555;
-  border-width: 2px;
-  box-sizing: content-box;
-  box-shadow: #213555;
-
-  
-}
-.toy h2{
-    margin: 20px;
-}
-.car h2{
-    margin: 20px;
-}
