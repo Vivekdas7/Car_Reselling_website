@@ -2,16 +2,26 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Dekho</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Dekho</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
 </head>
 
 <body>
+
     <header>
         <section>
             <!-- first nav bar -->
@@ -21,94 +31,337 @@
                     <div class="ser">
                         <input type="text" placeholder="Search Cars ,eg. BMW,Lamborgini">
                     </div>
-                    <div class="ser_icon"><i class='bx bx-search' style='color:white'  ></i></div>
+                    <div class="ser_icon"><i class='bx bx-search' style='color:white'></i></div>
                 </div>
                 <div class="lang">
-                    <form action="/action_page.php">
-                        <label for="cars"></label>
-                        <select name="cars" id="cars">
-                          <option value="volvo">English</option>
-                          <option value="saab">हिंदी</option>
-                          <option value="opel">বাংলা</option>
-                          <option value="audi">తెలుగు</option>
-                          <option value="audi">தமிழ்</option>
-                          <option value="audi">others</option>
-                        </select>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">हिंदी</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">తెలుగు</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">தமிழ்</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">others</a></li>
+                        </ul>
+                    </li>
+                           
                 </div>
                 <div class="like"><i id="pop" class='bx bx-heart'></i></div>
                 <div class="login">
                     <i id="pop" class='bx bx-user'></i>
-                    <p><b>Login/Register</b></p>
+                    <a><b>Login/Register</b></a>
                 </div>
             </nav>
         </section>
-         <!-- 2nd navbar -->
+        <!-- 2nd navbar -->
         <section class="header_1">
-           <div class="bar21">
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  NEW CARS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-           </div>
-           <div class="bar22">
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  BUY & SELL USED CARS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-           </div>
-           <div class="23">
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  NEWS,REVIEWS & VIDEOS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-           </div>
-           <div class="24">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  CAR SERVICES
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-           </div>
+            <div class="bar21">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        NEW CARS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Explore New Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Electric Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Upcoming Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">New Launches</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Popular Brands</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Popular Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Insurance</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Find Car Dealers</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">New Car Loans</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">EMI Calculator</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div class="bar22">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        BUY & SELL USED CARS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Cars in Your City</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sell Car in Your City</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Buy Used Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sell Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Used Cars Valuation</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Used Car Loan</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Loan Against Car</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Scrap My Car</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Selling Tips</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Insurance</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div class="bar23">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        NEWS,REVIEWS & VIDEOS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">News & Top Stories</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Expert Reviews</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Video Review</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Visual Stories</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">User Reviews</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Collection</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Tips & Advice</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Sales Trends</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div class="bar24">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        CAR SERVICES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Pay Pending Challan</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Connected Cars</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Car Service History</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">RTO Records</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Challan Check</a></li>
+
+                    </ul>
+                </li>
+            </div>
+            <div class="city">
+                <i class='bx bx-current-location' style='color:white'></i>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Select City
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Bangalore</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Ahmedabad</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">others</a></li>
+                    </ul>
+                </li>
+            </div>
         </section>
     </header>
 
+=======
+  <header>
+>>>>>>> 311e6040c64bafcc16533228f72e99656c2df979
+    <section>
+      <!-- first nav bar -->
+      <nav class="header">
+        <div class="logo"><img src="1.png" alt="logo"></div>
+        <div class="search_bar">
+          <div class="ser">
+            <input type="text" placeholder="Search Cars ,eg. BMW,Lamborgini">
+          </div>
+          <div class="ser_icon"><i class='bx bx-search' style='color:white'></i></div>
+        </div>
+        <div class="lang">
+          <form action="/action_page.php">
+            <label for="cars"></label>
+            <select name="cars" id="cars">
+              <option value="volvo">English</option>
+              <option value="saab">हिंदी</option>
+              <option value="opel">বাংলা</option>
+              <option value="audi">తెలుగు</option>
+              <option value="audi">தமிழ்</option>
+              <option value="audi">others</option>
+            </select>
+        </div>
+        <div class="like"><i id="pop" class='bx bx-heart'></i></div>
+        <div class="login">
+          <i id="pop" class='bx bx-user'></i>
+          <p><b>Login/Register</b></p>
+        </div>
+      </nav>
+    </section>
+    <!-- 2nd navbar -->
+    <section class="header_1">
+      <div class="bar21">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            NEW CARS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="bar22">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BUY & SELL USED CARS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="23">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            NEWS,REVIEWS & VIDEOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="24">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CAR SERVICES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </div>
+    </section>
+  </header>
+
   <section>
 
-    <!-- /*main content part*/ -->
-    <section class="body_top" id="body_top">
-
-      <div class="heading">
-        <span>WHY SELL CAR TO CARS_KARDIO?</span>
-        <h1>buy with 4 easy step </h1>
-      </div>
-
+<<<<<<< HEAD
             <div class="sell_container">
                 <div class="box">
                     <i class='bx bx-rupee'></i>
@@ -116,12 +369,12 @@
                     <p>Smart AI pricing to get you a great deal</p>
                 </div>
                 <div class="box">
-                    <i class='bx bx-run' ></i>
+                    <i class='bx bx-run'></i>
                     <h2>Instant payment </h2>
                     <p>Full payment to your bank account in minutes</p>
                 </div>
                 <div class="box">
-                    <i class='bx bxs-file-doc' ></i>
+                    <i class='bx bxs-file-doc'></i>
                     <h2>Hassle-Free Documentation </h2>
                     <p>We handle Rc transfer and loan clearance</p>
                 </div>
@@ -130,7 +383,165 @@
                     <h2>Sell From AnyWhere </h2>
                     <p>Entire selling process right from your home</p>
                 </div>
+=======
+    <!-- /*main content part*/ -->
+    <section class="body_top" id="body_top">
+
+      <div class="heading">
+        <span>WHY SELL CAR TO CARS_KARDIO?</span>
+        <h1>buy with 4 easy step </h1>
+      </div>
+
+      <div class="sell_container">
+        <div class="box">
+          <i class='bx bx-rupee'></i>
+          <h2>Great price </h2>
+          <p>Smart AI pricing to get you a great deal</p>
+        </div>
+        <div class="box">
+          <i class='bx bx-run'></i>
+          <h2>Instant payment </h2>
+          <p>Full payment to your bank account in minutes</p>
+        </div>
+        <div class="box">
+          <i class='bx bxs-file-doc'></i>
+          <h2>Hassle-Free Documentation </h2>
+          <p>We handle Rc transfer and loan clearance</p>
+        </div>
+        <div class="box">
+          <i class='bx bx-home-alt'></i>
+          <h2>Sell From AnyWhere </h2>
+          <p>Entire selling process right from your home</p>
+        </div>
+      </div>
+      <hr>
+      <!-- 1stcart -->
+      <div class="car">
+      <h2>Best Offroad Cars</h2>
+      <section class="cart-creating">
+        <div class="card">
+          <div class="card1" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Bolero/10754/1690259283519/front-left-side-47.jpg?tr=w-456"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mahindra Bolero</h5>
+              <p class="card-text">Mahindra Bolero is a 7 seater SUV available in a price range of Rs. 9.78 - 10.79
+                Lakh*. It is available in 3 variants, a 1493 cc, / and a single Manual transmission</p>
+              <a href="#" class="btn btn-primary">Show More</a>
+>>>>>>> 311e6040c64bafcc16533228f72e99656c2df979
             </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card1" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Land-Rover/Range-Rover/9018/1676541159356/front-left-side-47.jpg?tr=w-456"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Land Rover Range Rover</h5>
+              <p class="card-text">Land Rover Range Rover is a 7 seater SUV available in a price range of Rs. 2.39 -
+                4.17 Cr*. It is available in 50 variants, 5 engine options that are BS6 compliant and a single Automatic
+                transmission.</p>
+              <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card1" style="width: 18rem;">
+            <img class="card-img-top" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Jeep/Wrangler/10944/1690625250497/front-left-side-47.jpg?tr=w-456" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Jeep Wrangler</h5>
+              <p class="card-text">Jeep Wrangler is a 5 seater SUV available in a price range of Rs. 60.65 - 64.65 Lakh*. It is available in 2 variants, a 1998 cc, BS6 and a single Automatic transmission</p>
+              <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card1" style="width: 18rem;">
+            <img class="card-img-top" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/Macan/10974/1690871596474/front-left-side-47.jpg?tr=w-456" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Porsche Macan</h5>
+              <p class="card-text">Porsche Macan is a 5 seater Luxury available in a price range of Rs. 88.06 Lakh - 1.53 Cr*. It is available in 3 variants, 2 engine options that are / compliant and a single Automatic transmission.</p>
+              <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      </div>
+    </div>
+      <hr>
+
+      <!-- 2nd cart -->
+      <hr>
+      <div class="toy">
+        <h2>Latest SUV</h2>
+        <section class="cart-creating">
+          <div class="card">
+            <div class="card1" style="width: 18rem;">
+              <img class="card-img-top"
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg?imwidth=420&impolicy=resize"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mahindra Thar</h5>
+                <p class="card-text">Mahindra Thar is a 4 seater SUV available in a price range of Rs. 10.54 - 16.78
+                  Lakh*. It is available in 13 variants, 3 engine options that are / compliant and 2 transmission
+                  options: Automatic & Manual </p>
+
+                <a href="" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card1" style="width: 18rem;">
+              <img class="card-img-top"
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Exter/9482/1684926596004/front-left-side-47.jpg?tr=w-456"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hyundai Exter</h5>
+                <p class="card-text">Hyundai Exter is a 5 seater SUV available in a price range of Rs. 6 - 10.10 Lakh*.
+                  It is available in 17 variants, a 1197 cc, / and 2 transmission options: Manual & Automatic.
+                </p>
+                <a href="#" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card1" style="width: 18rem;">
+              <img class="card-img-top"
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Punch/10681/1691392713058/front-left-side-47.jpg?tr=w-456"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tata Punch</h5>
+                <p class="card-text">Tata Punch is a 5 seater SUV available in a price range of Rs. 6 - 10.10 Lakh*. It
+                  is available in 33 variants, a 1199 cc, / and 2 transmission options: Manual & Automatic.
+                </p>
+                <a href="#" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card1" style="width: 18rem;">
+              <img class="card-img-top"
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Fortuner/10903/1690544151440/front-left-side-47.jpg?tr=w-456"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Toyota Fortuner</h5>
+                <p class="card-text">Toyota Fortuner is a 7 seater SUV available in a price range of Rs. 32.99 - 50.74
+                  Lakh*. It is available in 7 variants, 2 engine options that are / compliant and 2 transmission
+                  options: Manual & Automatic.</p>
+                <a href="#" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+          <!-- main content part end -->
 
 
         </section>
@@ -140,6 +551,7 @@
         <hr>
         <!-- footer part -->
         <div class="footTop">
+<<<<<<< HEAD
             <!-- footerpart Top Container -->
             <div class="footTopContainer">
                 <!-- footerpart Top Container Row  -->
@@ -148,7 +560,7 @@
                     <div class="India">
                         <div class="FirstfootTopContainerRow">
                             <i class='bx bx-world'></i>
-                        <h1>India's#1</h1>
+                            <h1>India's#1</h1>
                         </div>
                         <p>Largest poratal of India</p>
                     </div>
@@ -156,7 +568,7 @@
                     <div class="CarSold">
                         <div class="FirstfootTopContainerRow">
                             <i class='bx bx-car'></i>
-                        <h1>Car Sold</h1>
+                            <h1>Car Sold</h1>
                         </div>
                         <p>Every 1 min</p>
                     </div>
@@ -164,24 +576,63 @@
                     <div class="offer">
                         <div class="FirstfootTopContainerRow">
                             <i class='bx bxs-purchase-tag'></i>
-                        <h1>Offers</h1>
+                            <h1>Offers</h1>
                         </div>
                         <p>Pay less take more</p>
                     </div>
                     <div class="Compare">
                         <div class="FirstfootTopContainerRow">
                             <i class='bx bx-git-compare'></i>
-                        <h1>Compare</h1>
+                            <h1>Compare</h1>
                         </div>
                         <p>Compare any time anywhere</p>
                     </div>
-                </div> 
+                </div>
+=======
+          <!-- footerpart Top Container -->
+          <div class="footTopContainer">
+            <!-- footerpart Top Container Row  -->
+            <div class="footTopContainerRow">
+              <!-- 1 coloumn  -->
+              <div class="India">
+                <div class="FirstfootTopContainerRow">
+                  <i class='bx bx-world'></i>
+                  <h1>India's#1</h1>
+                </div>
+                <p>Largest poratal of India</p>
+              </div>
+              <!-- 2 column -->
+              <div class="CarSold">
+                <div class="FirstfootTopContainerRow">
+                  <i class='bx bx-car'></i>
+                  <h1>Car Sold</h1>
+                </div>
+                <p>Every 1 min</p>
+              </div>
+              <!-- 3 column -->
+              <div class="offer">
+                <div class="FirstfootTopContainerRow">
+                  <i class='bx bxs-purchase-tag'></i>
+                  <h1>Offers</h1>
+                </div>
+                <p>Pay less take more</p>
+              </div>
+              <div class="Compare">
+                <div class="FirstfootTopContainerRow">
+                  <i class='bx bx-git-compare'></i>
+                  <h1>Compare</h1>
+                </div>
+                <p>Compare any time anywhere</p>
+              </div>
+>>>>>>> 311e6040c64bafcc16533228f72e99656c2df979
             </div>
+          </div>
         </div>
 
         <hr class="foottopheader">
         <!-- mid footer -->
         <div class="footNav">
+<<<<<<< HEAD
             <div class="footNavContainer">
                 <div class="column1">
                     <nav class="FooterNav">
@@ -198,34 +649,79 @@
                     </nav>
                 </div>
                 <div class="column2">
-                        <nav class="FooterNav">
-                            <h6>Connect With Us</h6>
-                            <ul>
-                                <li>Feedback</li>
-                                <li>Contact Us</li>
-                                <li>Advertise with Us</li>
-                            </ul>
-                        </nav>
+                    <nav class="FooterNav">
+                        <h6>Connect With Us</h6>
+                        <ul>
+                            <li>Feedback</li>
+                            <li>Contact Us</li>
+                            <li>Advertise with Us</li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="column3">
-                        <nav class="FooterNav">
-                            <h6>Other</h6>
-                                <ul>
-                                    <li>Health Insurance</li>
-                                    <li>Term Life Insurance</li>
-                                    <li>Personal loan</li>
-                                    <li>Tyre kharido</li>
-                                    <li>Battery kharido</li>
-                                    <li>Funds</li>
-                                </ul>
-                        </nav>
+                    <nav class="FooterNav">
+                        <h6>Other</h6>
+                        <ul>
+                            <li>Health Insurance</li>
+                            <li>Term Life Insurance</li>
+                            <li>Personal loan</li>
+                            <li>Tyre kharido</li>
+                            <li>Battery kharido</li>
+                            <li>Funds</li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="column4">
                     <nav class="FooterNav">
                         <h6>Experience carKharido</h6>
                     </nav>
                 </div>
+=======
+          <div class="footNavContainer">
+            <div class="column1">
+              <nav class="FooterNav">
+                <h6>About Carkharido</h6>
+                <ul>
+                  <li>About</li>
+                  <li>Career With US</li>
+                  <li>Term and conditions</li>
+                  <li>Privacy policy</li>
+                  <li>Coporate policiy</li>
+                  <li>Investor's</li>
+                  <li>FAQs</li>
+                </ul>
+              </nav>
+>>>>>>> 311e6040c64bafcc16533228f72e99656c2df979
             </div>
+            <div class="column2">
+              <nav class="FooterNav">
+                <h6>Connect With Us</h6>
+                <ul>
+                  <li>Feedback</li>
+                  <li>Contact Us</li>
+                  <li>Advertise with Us</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="column3">
+              <nav class="FooterNav">
+                <h6>Other</h6>
+                <ul>
+                  <li>Health Insurance</li>
+                  <li>Term Life Insurance</li>
+                  <li>Personal loan</li>
+                  <li>Tyre kharido</li>
+                  <li>Battery kharido</li>
+                  <li>Funds</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="column4">
+              <nav class="FooterNav">
+                <h6>Experience carKharido</h6>
+              </nav>
+            </div>
+          </div>
         </div>
 
         <hr class="footbottomheader">
