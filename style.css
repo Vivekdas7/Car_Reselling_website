@@ -20,6 +20,12 @@
 
 /* Header */
 /* 1st navbar */
+/* #mac{
+    overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 .header{
     display         : flex;
     padding         : 11px;
@@ -78,7 +84,7 @@
     border:none;
 }
 .search_bar:hover{
-    border-color: antiquewhite;
+    border-color:#1f8a70;
 }
 .ser_icon{
     width                       : 40px;
