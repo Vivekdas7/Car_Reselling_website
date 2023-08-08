@@ -203,6 +203,21 @@
   box-shadow: #213555;
 }
 
+#kou{
+    background-color:var(--highlighted-color);
+    color: white;
+    outline: none;
+    border-color:var(--highlighted-color); 
+    
+    transition-duration: 0.4s;
+}
+      
+      /* #kou:hover {
+        background-color: var(--highlighted-color);
+        color: white;
+      } */
+    
+
 
 
 
