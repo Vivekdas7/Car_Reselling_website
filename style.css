@@ -19,30 +19,27 @@
 
 
 /* Header */
+/* 1st navbar */
 .header{
     display         : flex;
     padding         : 11px;
     width           : 100%;
     height          : 70px;
-    background-color: aqua;
+    background-color:rgba(47, 8, 105, 0.8);
+    color:antiquewhite;
 }
 .logo{
-    display         : flex;
-    padding-left    : 10px;
-    padding-right   : 10px;
-    width           : 1000px;
-    height          : 100px;
-    background-size : cover;
-    
-    
-
+    display: flex;
+   width: 200px;
+   height: 100%;
+   background-size: cover;
+   justify-content: center;
 }
 .lang{
     padding         : 10px;
     width           : 205px;
     height          : 48px;
     text-align      : center;
-    text-decoration : underline;
     border          : none;
 }
 .like{
@@ -73,10 +70,13 @@
 }
 .ser input{
     padding-left                : 10px;
-    width                       : 400px;
+    width                       : 500px;
     height                      : 38px;
     border-top-left-radius      : 10px;
     border-bottom-left-radius   : 10px;
+}
+.search_bar:hover{
+    border-color: antiquewhite;
 }
 .ser_icon{
     width                       : 40px;
@@ -88,7 +88,13 @@
     border-bottom-right-radius  : 10px;
     border-top-right-radius     : 10px;
 }
+/* 2nd navbar */
 
+.bar2{
+    width: 100%;
+    height:50px;
+    background-color: #294269;
+}
 
 /* body */
 
