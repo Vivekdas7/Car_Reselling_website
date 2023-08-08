@@ -264,8 +264,43 @@
     
 
 
+/* cities*/
+.card10{
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+   
 
+}
+
+.card9 {
+    height: 200px;
+    width: 150px;
+    /* box-shadow: 10px 00px 10px 10px rgb(37, 37, 37); */
+    /* border: 2px solid blue; */
+    margin: 15px;
+    padding: 10px;
+    
+   
+}
+
+#get {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    color: black;
+}
+
+.card9{
+    border: 1px solid gray;
+    /* margin: 15px;
+    padding: 10px; */
+    cursor: pointer;
+    /* overflow-x: hidden; 
+    overflow-y: auto; */
+    
+}
 
 
 
