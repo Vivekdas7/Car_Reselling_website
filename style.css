@@ -1,125 +1,56 @@
 * {
-    margin  : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
 }
 
 
 /* functions */
 :root {
-    --highlighted-color : #b04759;
-    --text-color        : #213555;
-    --bg-color          : #f6f4eb;
-    --text-color        : #00000;
-    --big-font          : 5rem;
-    --h1-font           : 3.75rem;
-    --h2-font           : 2.25rem;
-    --p-font            : 0.8rem;
+    --highlighted-color: #b04759;
+    --text-color: #213555;
+    --bg-color: #f6f4eb;
+    --text-color: #00000;
+    --big-font: 5rem;
+    --h1-font: 3.75rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.8rem;
 }
 
-
-/* Header */
-nav{
-    display         : flex;
-    padding         : 11px;
-    width           : 100%;
-    height          : 70px;
-    background-color: aqua;
-}
-.logo{
-    display         : flex;
-    padding-left    : 10px;
-    padding-right   : 10px;
-    width           : 300px;
-    height          : 42px;
-    background-size : cover;
-}
-.lang{
-    padding         : 10px;
-    width           : 205px;
-    height          : 48px;
-    text-align      : center;
-    text-decoration : underline;
-    border          : none;
-}
-.like{
-    padding : 10px;
-    width   : 90px;
-    height  : 48px;
-    display : flex;
-}
-.login{
-    padding-right   : 10px;
-    display         : flex;
-    justify-items   : center;
-    padding         : 10px;
-    width           : 150px;
-    height          : 48px;
-    font-size       : 1rem;
-}
-#pop {
-    font-size   : 1.75rem;
-}
-.search_bar{
-    height          : 38px;
-    width           : 100%;
-    display         : flex;
-    justify-content : center;
-    padding         : 5px;
-    text-align      : center;
-}
-.ser input{
-    padding-left                : 10px;
-    width                       : 400px;
-    height                      : 38px;
-    border-top-left-radius      : 10px;
-    border-bottom-left-radius   : 10px;
-}
-.ser_icon{
-    width                       : 40px;
-    height                      : 38px;
-    background-color            : black;
-    display                     : flex;
-    justify-content             : center;
-    align-items                 : center ;
-    border-bottom-right-radius  : 10px;
-    border-top-right-radius     : 10px;
-}
-
-
-/* body */
-
+/*HEADER*/
 .heading {
-    text-align  : center;
+    text-align: center;
 }
 
 .heading span {
-    font-weight     : 500;
-    text-transform  : uppercase;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .heading h1 {
-    font-size   : 2rem;
-    color       : var(--text-color);
+    font-size: 2rem;
+    color: var(--text-color);
 }
 
 .sell_container {
-    display                 : grid;
-    align-items             : center;
-    grid-template-columns   : repeat(auto-fit, minmax(250px, auto));
-    gap                     : 1rem;
-    margin-top              : 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .sell_container .box {
-    text-align  : center;
-    padding     : 20px;
+    text-align: center;
+    padding: 20px;
+
 }
 
 .sell_container .box .bx {
-    font-size       : 34px;
-    padding         : 10px;
-    background      : white;
-    border-radius   : 0.5rem;
+    font-size: 34px;
+    padding: 10px;
+    background: white;
+    border-radius: 0.5rem;
+
 }
 
 
@@ -127,46 +58,46 @@ nav{
 /* top container css */
 
 .footTop {
-    height  : 40px;
-    margin  : 30px 130px 0px -40px;
+    height: 40px;
+    margin: 30px 130px 0px -40px;
 }
 
 /* footContainer */
 
 .footTopContainer {
-    margin  : 20px;
+    margin: 20px;
 }
 
 /* footcontainer row */
 .footTopContainerRow {
-    width           : 100%;
-    z-index         : 1000;
-    display         : flex;
-    align-items     : center;
-    justify-content : space-evenly;
-    padding         : 1px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1px;
 }
 
 /* firstSentencefootContainer */
 .FirstfootTopContainerRow {
-    display : flex;
+    display: flex;
 }
 
 /*  firstSentencefootContainer header*/
 .FirstfootTopContainerRow h1 {
-    font-size       : var(--h2-font);
+    font-size: var(--h2-font);
 }
 
 /* firstSentencefootContainer paragraph */
 .footTopContainerRow p {
-    padding-left : 50px;
-    font-size    : var(--p-font);
+    padding-left: 50px;
+    font-size: var(--p-font);
 }
 
 /* firstSentencefootContainer icon */
 .FirstfootTopContainerRow i {
-    font-size       : 50px;
-    padding-right   : 3px;
-    padding-top     : 5px;
+    font-size: 50px;
+    padding-right: 3px;
+    padding-top: 5px;
 
 }
