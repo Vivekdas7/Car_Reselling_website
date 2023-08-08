@@ -38,6 +38,7 @@
     display: flex;
    width: 200px;
    height: 100%;
+   font-weight: 400;
    background-size: cover;
    justify-content: center;
 }
@@ -63,6 +64,10 @@
     width           : 150px;
     height          : 48px;
     font-size       : 1rem;
+}
+.login a{
+    color     : white;
+    text-decoration: none;
 }
 #pop {
     font-size   : 1.75rem;
