@@ -219,7 +219,7 @@
 /* header of top of 2ndnav bar */
 
 .foottopheader{
-    margin: 90px 0px 70px 0px;
+    margin: 60px 0px 60px 0px;
 }
 
 /* 2nd bottom nav bar */
@@ -254,3 +254,74 @@
 .footNavContainer .FooterNav ul li{
     padding: 15px 0px 0px 0px;
 }
+
+/* hower */
+.footNavContainer .FooterNav ul li:hover {
+    font-size: 18px;
+}
+.toy h2{
+    margin: 20px;
+}
+.car h2{
+    margin: 20px;
+}
+
+.cart-creating {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.card:hover{
+  /* bottom: 30px; */
+  transform: translate3D(0,-1px,0) scale(1.08);
+  border-color: #213555;
+  border-width: 2px;
+  box-sizing: content-box;
+  box-shadow: #213555;
+}
+
+
+
+
+
+
+/*----------------------------------------- bootom footer======================================== */
+.footBottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footBottom .footleftfont{
+    font-style: italic;
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.footrightfont .socialMedia{
+    display: flex;
+}
+
+.socialMedia p{   
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.logoOfSocialMedia{
+    padding: 0px 0px 0px 25px;
+}
+
+.logoOfSocialMedia i{
+    padding: 2px;
+}
+
+
