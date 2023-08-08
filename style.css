@@ -213,7 +213,7 @@
 
 .footNav{
     padding: 0px 0px 0px 0px;
-    margin: 70px 90px 10px 90px;
+    margin: 60px 70px 10px 70px;
 }
 
 
@@ -226,12 +226,18 @@
     padding         : 1px;
 }
 
+
 .footNavContainer .FooterNav h6{
-    font-size: var(--h6-font)
+    font-size: var(--h6-font);
+    font-weight: 650;
 }
 
 .footNavContainer .FooterNav ul{
     list-style-type: none;
     padding: 0;
     font-size: var(--p-font);
+}
+
+.footNavContainer .FooterNav ul li{
+    padding: 15px 0px 0px 0px;
 }
