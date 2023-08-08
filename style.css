@@ -219,3 +219,17 @@
 .footNavContainer .FooterNav ul li{
     padding: 15px 0px 0px 0px;
 }
+
+
+
+
+/* bootom footer */
+.footBottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footrightfont .socialMedia{
+    display: flex;
+}
