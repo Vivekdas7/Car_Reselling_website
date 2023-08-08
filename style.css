@@ -37,9 +37,9 @@
     display: flex;
    width: 400px;
    height: 100%;
+   font-weight: 400;
    background-size: cover;
    justify-content: center;
-   font-size: 10.5rem;
 }
 .lang{
     padding         : 10px;
@@ -60,9 +60,14 @@
     display         : flex;
     justify-items   : center;
     padding         : 10px;
-    width           : 150px;
+    width           : 350px;
     height          : 48px;
-    font-size       : 1rem;
+    font-size       : 1.25rem;
+    padding-right: 25px;
+}
+.login a{
+    color     : white;
+    text-decoration: none;
 }
 #pop {
     font-size   : 1.75rem;
