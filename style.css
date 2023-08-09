@@ -313,6 +313,7 @@
     .grid-text-center .g-col-4{
         /* border: solid black; */
         box-shadow: 5px 5px 2.5px 0px #888888;
+        margin: 0px 40px 0px 0px;
     }
 
     .grid-text-center .g-col-4:hover{
@@ -463,6 +464,4 @@
 .logoOfSocialMedia i{
     padding: 2px;
 }
-
-
 
