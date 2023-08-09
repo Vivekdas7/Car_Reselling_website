@@ -155,6 +155,7 @@
 .city .bx{
     font-size: 1.5rem;
 }
+.city .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 
 /* body */
 
