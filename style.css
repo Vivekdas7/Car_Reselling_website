@@ -52,6 +52,10 @@
     border-bottom: #213555;
     list-style: none;
 }
+ .lang .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
+  
+ /* .lang .dropdown:hover .dropdown-menu {display: block;} */
+ 
 .like{
     padding : 10px;
     width   : 90px;
@@ -127,17 +131,21 @@
     height:40px;
     padding-right: 25px;
 }
+.bar21 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar22{
     padding-right: 25px;
 }
+.bar22 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar23{
     display:flex;
     width: 300px;
     padding-right: 25px;
 }
+.bar23 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar24 ul{
     width:200px;
 }
+.bar24 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .city{
     margin-right:50px;
     width:100%;
