@@ -79,6 +79,7 @@
     justify-content : center;
     padding         : 5px;
     text-align      : center;
+    border-top-right-radius: 20px;
 }
 .ser input{
     padding-left                : 10px;
