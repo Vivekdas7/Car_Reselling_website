@@ -49,8 +49,11 @@
     height          : 48px;
     text-align      : center;
     border          : none;
-    border-bottom: #213555;
+    /* border-bottom: #213555; */
+    text-decoration: underline white;
     list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
  .lang .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
   
@@ -74,6 +77,7 @@
 .login a{
     color     : white;
     text-decoration: none;
+    cursor: pointer;
 }
 #pop {
     font-size   : 1.75rem;
@@ -131,9 +135,15 @@
     height:40px;
     padding-right: 25px;
 }
+.bar21 :hover{
+    font-weight: 700;
+}
 .bar21 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar22{
     padding-right: 25px;
+}
+.bar22 :hover{
+    font-weight:700;
 }
 .bar22 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar23{
@@ -141,9 +151,15 @@
     width: 300px;
     padding-right: 25px;
 }
+.bar23 :hover{
+    font-weight:700;
+}
 .bar23 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .bar24 ul{
     width:200px;
+}
+.bar24 :hover{
+    font-weight:700;
 }
 .bar24 .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
 .city{
