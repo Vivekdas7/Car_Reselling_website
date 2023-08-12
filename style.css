@@ -740,18 +740,29 @@
     }
   }
 
-  /* Media query for smaller screens */
-  @media (max-width: 768px) {
-
-  }
-
   /* Media query for even smaller screens */
   @media (max-width: 480px) {
-
-  }
-@media(min-width:1286){
+    .grid-text-center{
+        flex-wrap: wrap;
+        /* display: table-row ;*/
+    }
     
-}
+    .g-col-4{
+        margin: 0px;
+        padding: 15px;
+        /* width: auto; */
+        height: 150px;
+        width: 100%;
+        background-size: cover;
+        /* justify-content:center; */
+    }
+    .g-col-4 img{
+        /* height: 50px;
+        width: 50px; */
+        padding-left: 50px;
+    }
+  }
+
 
 
 
