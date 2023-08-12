@@ -716,7 +716,7 @@
 
 
  
-@media screen and (max-width : 984px) {
+@media screen and (max-width : 992px) {
     .grid-text-center{
         flex-wrap: wrap;
         /* display: table-row ;*/
@@ -734,6 +734,13 @@
     .grid-text-center{
         flex-wrap: wrap;
         /* display: table-row ;*/
+        margin-right: 35px;
+        margin-left: 22px;
+    }
+
+
+    .grid-text-center .g-col-4{
+        box-shadow: none;
     }
 
     .g-col-4{
@@ -753,6 +760,7 @@
 
     .footTopContainerRow p{
         font-size: 8px;
+        padding: 0;
     }
     .footTopContainerRow i{
         font-size: 20px;
@@ -810,7 +818,3 @@
         margin-top: 80px;
     }
   }
-
-
-
-
