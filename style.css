@@ -465,3 +465,39 @@
     padding: 2px;
 }
 
+
+
+@media screen and (max-width : 984px) {
+    .grid-text-center{
+        flex-wrap: wrap;
+    }
+    .g-col-4{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        justify-content:center;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .grid-text-center{
+        flex-wrap: wrap;
+    }
+    .g-col-4{
+        padding: 0px;
+        width: 100%;
+    }
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+
+  }
+
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+
+  }
+@media(min-width:1286){
+    
+}
