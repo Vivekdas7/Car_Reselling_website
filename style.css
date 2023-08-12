@@ -716,25 +716,27 @@
     .grid-text-center{
         flex-wrap: wrap;
         /* display: table-row ;*/
-        
-        
     }
 
     .g-col-4{
         margin: 0px;
         padding: 15px;
         width: auto;
-        justify-content:center;
+        /* justify-content:center; */
     }
 }
 
   @media screen and (max-width: 768px) {
     .grid-text-center{
         flex-wrap: wrap;
+        /* display: table-row ;*/
     }
+
     .g-col-4{
-        padding: 0px;
-        width: 100%;
+        margin: 0px;
+        padding: 15px;
+        width: auto;
+        /* justify-content:center; */
     }
   }
 
