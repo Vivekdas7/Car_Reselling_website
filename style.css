@@ -715,11 +715,15 @@
 @media screen and (max-width : 984px) {
     .grid-text-center{
         flex-wrap: wrap;
+        /* display: table-row ;*/
+        
+        
     }
+
     .g-col-4{
         margin: 0px;
-        padding: 0px;
-        width: 100%;
+        padding: 15px;
+        width: auto;
         justify-content:center;
     }
 }
@@ -747,9 +751,5 @@
     
 }
 
-body{
-    justify-content: center;
-   
 
-}
 
