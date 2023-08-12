@@ -27,10 +27,11 @@
 } */
 .header{
     display         : flex;
-    padding         : 11px;
+    padding         : 5px;
     width           : 100%;
     height          : 70px;
     background-color:#00425A;
+    
     color:antiquewhite;
     /* position: fixed;
     top:0; */
@@ -506,7 +507,7 @@
 
 body{
     justify-content: center;
+   
 
 }
-
 
