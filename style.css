@@ -728,6 +728,9 @@
         width: auto;
         /* justify-content:center; */
     }
+    .footTopContainer{
+        margin: 0px 0px 0px 30px
+    }
 }
 
   @media screen and (max-width: 768px) {
@@ -786,6 +789,14 @@
     .grid-text-center{
         flex-wrap: wrap;
         /* display: table-row ;*/
+        margin: 0px 0px 0px 25px;
+    }
+    .FirstfootTopContainerRow i{
+        font-size: 15px;
+    }
+
+    .FirstfootTopContainerRow h1{
+        font-size: 15px;
     }
     
     .g-col-4{
@@ -803,7 +814,11 @@
         padding-left: 50px;
     }
     .footNav{
-        padding: 0px;
+        padding: 5px;
+    }
+    .footTop{
+        margin: 30px 10px 67px -40px;
+        padding: 0px 10px 0px 0px;
     }
 
     .footNavContainer .FooterNav h6{
@@ -815,6 +830,12 @@
     }
 
     .footNavContainer{
-        margin-top: 80px;
+        margin-top: 10px;
     }
+
+    .footTopContainer{
+        margin-left: 37px;
+    }
+
+
   }
