@@ -20,119 +20,119 @@
 /* Header */
 /* 1st navbar */
 .header {
-    display: flex;
-    padding: 11px;
-    width: 100%;
-    height: 70px;
+    display : flex;
+    padding : 11px;
+    width   : 100%;
+    height  : 70px;
     background-color: #00425A;
-    color: antiquewhite;
+    color   : antiquewhite;
 }
 
 .logo {
-    display: flex;
-    width: 300px;
-    height: 100%;
-    margin-right:5px;
-    background-size: cover;
-    justify-content: center;
+    display : flex;
+    width   : 300px;
+    height  : 100%;
+    margin-right    : 5px;
+    background-size : cover;
+    justify-content : center;
 }
 
 .lang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height:100%;
-    border: none;
-    border-bottom: #213555;
-    list-style: none;
-    font-weight: 500;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    width   : 100px;
+    height  :100%;
+    border  : none;
+    border-bottom   : #213555;
+    list-style  : none;
+    font-weight : 500;
 }
 
 .like {
-    display: flex;
+    display : flex;
     justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 48px;
-    padding: 5px;
+    align-items : center;
+    width   : 50px;
+    height  : 48px;
+    padding : 5px;
     
 }
 .login {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    text-decoration: none;
-    width: 150px;
-    height: 48px;
-    font-size: 1rem;
-    color: antiquewhite;
-    font-weight: 500;
-    padding: 5px;
+    display : flex;
+    justify-items   : center;
+    align-items     : center;
+    text-decoration : none;
+    width   : 150px;
+    height  : 48px;
+    font-size   : 1rem;
+    color   : antiquewhite;
+    font-weight : 500;
+    padding : 5px;
 }
 
 #pop {
-    font-size: 1.75rem;
+    font-size   : 1.75rem;
 }
 
 .search_bar {
-    height: 38px;
-    width: 900px;
-    display: flex;
+    height  : 38px;
+    width   : 900px;
+    display : flex;
     justify-content: center;
-    padding: 5px;
-    text-align: center;
+    padding : 5px;
+    text-align  : center;
 }
 .ser input {
-    padding-left: 10px;
-    width: 500px;
-    height: 38px;
-    border-top-left-radius: 10px;
+    padding-left    : 10px;
+    width   : 500px;
+    height  : 38px;
+    border-top-left-radius  : 10px;
     border-bottom-left-radius: 10px;
-    border: none;
+    border  : none;
 }
 .ser_icon {
-    width: 40px;
-    height: 40px;
-    border: none;
+    width   : 40px;
+    height  : 40px;
+    border  : none;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-bottom-right-radius  : 10px;
+    border-top-right-radius : 10px;
 }
 @media screen and (min-width:750px) and (max-width:912px) {
     .header {
         /* display: flex;
         justify-content:centre; */
-        width: 100%;
-        height: 60px;
+        width   : 100%;
+        height  : 60px;
     }
 
     .lang a{
-        width:50px;
-        height: 100%;
-        font-size: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left:5px ;
+        width   :50px;
+        height  : 100%;
+        font-size   : 1rem;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        text-align  : center;
+        margin-left :5px ;
     }
     .lang .dropdown-menu .dropdown-item{
-        width:auto;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width   :auto;
+        height  : 25px;
+        display : flex;
+        justify-content : center;
+        align-items : center;
     }
     .logo {
-        display: flex;
-        width: auto;
-        height: 100%;
-        background-size: cover;
-        justify-content: center;
+        display : flex;
+        width   : auto;
+        height  : 100%;
+        background-size : cover;
+        justify-content : center;
         
     }
     .like #pop {
@@ -836,6 +836,5 @@
     .footTopContainer{
         margin-left: 37px;
     }
-
 
   }
