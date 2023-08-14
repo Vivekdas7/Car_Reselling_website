@@ -771,7 +771,7 @@
 
 
     .footNav{
-        padding: 0px;
+        padding: 9px;
     }
 
     .footNavContainer .FooterNav h6{
@@ -785,7 +785,7 @@
   }
 
   /* Media query for even smaller screens */
-  @media (max-width: 480px) {
+  @media (max-width: 490px) {
     .grid-text-center{
         flex-wrap: wrap;
         /* display: table-row ;*/
