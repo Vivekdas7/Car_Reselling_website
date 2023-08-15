@@ -56,7 +56,14 @@
     width   : 50px;
     height  : 48px;
     padding : 5px;
-    
+    text-decoration: none;
+    color: antiquewhite;
+}
+.login p{
+    display : flex;
+    justify-items   : center;
+    align-items     : center;
+    padding-top: 15px;
 }
 .login {
     display : flex;
@@ -102,10 +109,38 @@
     border-bottom-right-radius  : 10px;
     border-top-right-radius : 10px;
 }
-@media screen and (min-width:750px) and (max-width:912px) {
+@media screen and (min-width:900px) and (max-width:950px) {
+    
+    .ser input {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left:5px ;
+        width: 300px;
+        height:40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        /* font-size: 1rem; */
+    }
+    
+}
+@media screen and (min-width:950px) and (max-width:1024px){
+    .ser input {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left:5px ;
+        width: 220px;
+        height:40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        /* font-size: 1rem; */
+    }
+}
+@media screen and (min-width:750px) and (max-width:900px) {
     .header {
-        /* display: flex;
-        justify-content:centre; */
         width   : 100%;
         height  : 60px;
     }
@@ -224,7 +259,7 @@
         align-items: center;
         font-size: 0.95rem;
         padding-bottom: 26px;
-        margin-left:5px ;
+        margin-left:4px ;
     }
     .login{
         display: flex;
@@ -232,14 +267,15 @@
         align-items: center;
         width:auto;
         height:100%;
-        font-size: 0.62rem;
+        font-size: 0.55rem;
+        padding-right: 5px;
     }
     .login #pop{
         display: flex;
         justify-items: center;
         align-items: center;
-        font-size: 1rem;
-        margin-left:5px ;
+        font-size: 0.96rem;
+        /* margin-left:5px ; */
     }
     .search_bar {
         display:flex;
@@ -318,7 +354,7 @@
 .city .bx {
     font-size: 1.5rem;
 }
-@media screen and (min-width:750px) and (max-width:912px) {
+@media screen and (min-width:750px) and (max-width:900px) {
     .header_1{
         display: flex;
         justify-content: center;
@@ -372,6 +408,7 @@
         align-items: center;
         width: 100%;
         height: 40px;
+        padding-left: 15px;
         
     }
     .bar21 a{
@@ -415,7 +452,7 @@
         /* display:none; */
     }
 }
-.city .dropdown-menu a:hover {background-color: rgb(216, 216, 216);}
+.city .dropdown-menu a:hover {background-color: rgb(64, 62, 62);}
 
 /* body */
 
