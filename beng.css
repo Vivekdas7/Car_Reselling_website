@@ -59,10 +59,7 @@
     text-decoration: none;
     color: antiquewhite;
 }
-/* .like #pop:active{
-    background-color: antiquewhite;
-    will-change:white;
-} */
+
 .login p {
     display: flex;
     justify-items: center;
